@@ -1,0 +1,19 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c1a27;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#playBoard {
+  width: 100vmin;
+  height: 100vh;
+  background-color: #c4efff;
+  display: grid;
+  grid-template-columns: repeat(21, 1fr);
+  grid-template-rows: repeat(21, 1fr);
+}
