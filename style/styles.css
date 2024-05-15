@@ -48,3 +48,30 @@ body {
   font-size: 3rem;
   margin-bottom: 5%;
 }
+button {
+  color: white;
+  background-color: transparent;
+  font-size: 1.5rem;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: all 300ms;
+  margin: 0 10px;
+}
+button:hover {
+  background-color: white;
+  color: #0c1a27;
+}
+.snake {
+  background-color: hsl(200, 100%, 50%);
+}
+
+.food {
+  background: url("../assets/image/circle.png") center no-repeat;
+  background-size: cover;
+  width: 1fr;
+}
+.play-speed {
+  margin: 4% 4% 0 0;
+}
