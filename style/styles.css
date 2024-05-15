@@ -17,3 +17,34 @@ body {
   grid-template-columns: repeat(21, 1fr);
   grid-template-rows: repeat(21, 1fr);
 }
+#gameOver,
+#gameStart {
+  width: 100vmin;
+  height: 100vh;
+  z-index: 100;
+  position: absolute;
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(35, 37, 70, 0.8);
+  color: white;
+}
+#gameStart {
+  display: flex;
+}
+.game-start-text {
+  font-size: 3rem;
+  font-weight: 900;
+  padding-top: 20%;
+  padding-bottom: 3%;
+}
+#startButton {
+  padding: 5px 15px;
+}
+.game-over-text {
+  padding-top: 20%;
+  color: rgb(219, 0, 0);
+  font-weight: 900;
+  font-size: 3rem;
+  margin-bottom: 5%;
+}
